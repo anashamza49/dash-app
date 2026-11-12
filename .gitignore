@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+.pytest_cache/
+data/*.sqlite
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+*.pyc
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+file.md
